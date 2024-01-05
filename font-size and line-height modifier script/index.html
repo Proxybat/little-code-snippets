@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--container holding javascript buttons-->
+    <nav>
+        <div class="fiction_font-size-cont">
+            <button id="minustext" onclick="resizeText(-1)" aria-label="decrease font size">decrease</button>
+            <button id "resettext" onclick="resetText()" aria-label="reset font size">reset</button>
+            <button id="plustext" onclick="resizeText(1)" aria-label="increase font size">increase</button>
+        </div>
+        <div class="fiction_line-height-cont">
+            <button id="minusheight" onclick="resizeLine(-1) " aria-label="decrease line height">decrease line height</button>
+            <button id="resetheight" onclick="resetLine()" aria-label="reset line height">reset line height</button>
+            <button id="plusheight" onclick="resizeLine(1)" aria-label="increase line height">increase line height</button>
+        </div>
+    </nav>
+    <!--container holding text for testing purposes-->
+    <main>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem eius vel sunt minima ipsa velit labore blanditiis impedit nam, cumque illo ipsum excepturi fuga! Debitis architecto similique voluptatibus qui ipsam?</p>
+
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex eaque, fugiat doloremque quos saepe delectus. Hic odio architecto animi earum fuga numquam, minus ducimus alias laboriosam voluptatum! Doloremque autem delectus, fugiat, neque cupiditate vero nulla ratione porro consequuntur expedita impedit modi? Maiores harum eaque eius libero voluptas architecto necessitatibus ut, fugiat quos tempore. Reprehenderit repellat earum eligendi inventore perferendis iusto ratione ea, tempore hic id tenetur cumque. Eveniet, magni aliquid libero voluptatem error consequuntur eos, deleniti veritatis, officiis adipisci possimus blanditiis corporis! Animi quae numquam aspernatur atque sunt. Id, quaerat.</p>
+    </main>
+    <script src="font-size-line-height-toggle.js"></script>
+</body>
+</html>

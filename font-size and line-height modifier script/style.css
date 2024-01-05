@@ -1,0 +1,19 @@
+/*make sure html has font-size and line-height just so you have control over the default font-size and line-height*/
+html {
+  font-size: 1rem;
+  line-height: 1.2rem;
+}
+/*make sure you assign font-sizes and/or line-heights to elements or classes that you don't want affected by the script!*/
+nav {
+  font-size: 1rem;
+}
+
+.fiction_font-size-cont {
+  /*prevents script from changing line-height of ui*/
+  line-height: 1.2rem;
+}
+
+.fiction_line-height-cont {
+  /*prevents script from changing line-height of ui*/
+  line-height: 1.2rem;
+}
